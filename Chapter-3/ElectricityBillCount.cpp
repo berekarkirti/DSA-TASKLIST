@@ -32,4 +32,6 @@ int main()
 	{
 	    Amount = 0;
 	}
+	
+	return 0;
 }
