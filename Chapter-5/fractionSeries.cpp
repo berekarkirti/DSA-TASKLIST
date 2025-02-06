@@ -4,6 +4,7 @@ using namespace std;
 int main() 
 {
 	// Print series: 2, 1, (1/2), (1/4), ...
+	
     int n = 1 , m = 2 , p ; 
    
 
@@ -13,7 +14,6 @@ int main()
     {
     	m = m * 2;
         cout << "1/" << m*1 << ",";
-//        p++;
 	}
 
     return 0;

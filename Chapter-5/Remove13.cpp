@@ -16,12 +16,6 @@ int main()
     		n = n -13;
     		cout << "," << n << "," << n;
 		}
-//		else
-//		{
-//			n = n +2;
-//			cout << "," << n;
-//		}
-	
 	}
 
     return 0;
