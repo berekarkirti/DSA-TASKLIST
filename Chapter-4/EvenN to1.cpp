@@ -6,6 +6,8 @@ int main()
 {
 	// wap to print only an even number from n to 1 using while/for loop.
 
+
+    //using for loop:-
 	int i,n;
 	
 	cout << "Enter The value of n :";

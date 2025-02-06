@@ -21,7 +21,7 @@ int main()
 	
 	//using while loop:-
 	
-	int x=1,m;
+	int x=1, m;
 	
 	cout << "Enter The Value of m :";
 	cin  >> m;
@@ -31,4 +31,6 @@ int main()
 		cout << x << endl;
 		x++;
 	}
+	
+	return 0;
 }
