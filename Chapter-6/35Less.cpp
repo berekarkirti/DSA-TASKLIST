@@ -20,6 +20,6 @@ int main()
             n = n - 35;
         }
     }
-
+    
     return 0;
 }
