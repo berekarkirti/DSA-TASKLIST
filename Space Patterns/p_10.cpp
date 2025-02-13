@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-//wronge output
+
 int main()
 {
 	//5 4 3 2 1 
@@ -11,18 +11,21 @@ int main()
 	//        1
 
     
-  for (int i = 1; i <= 5; i++) 
-    {
-        for (int k = 1; k < i; k++) 
-        {
-            cout << " ";
+   int n = 5;
+    
+    for (int i = 5; i >=1; i--) 
+	{
+        for (int k = 0; k < n - i; k++) 
+		{
+            cout << "  "; 
         }
-        for (int j = i; j <= 1; j--) 
-        {
-            cout << i;
+        for (int j = i; j >=1; j--) 
+		{
+            cout << j << " ";
         }
         cout << endl;
     }
 
   
 }
+

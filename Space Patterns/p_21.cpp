@@ -1,14 +1,14 @@
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
 int main()
 {
-    // Desired Pattern:
-    // 1 0 1 0 1
-    //   0 1 0 1
-    //     1 0 1
-    //       0 1
-    //         1
+	//1 1 1 1 1
+	//  0 0 0 0
+	//    1 1 1
+	//      0 0
+	//        1
 
     for (int i = 1; i <= 5; i++) 
     {
@@ -18,11 +18,18 @@ int main()
         }
         for (int j = i; j <= 5; j++) 
         {
-           cout << j%2;  
+            if(i%2==0)
+            {
+            	cout << "0";
+			}
+			else
+			{
+				cout << "1";
+			}
         }
         cout << endl;
     }
   
-
-    return 0;
+ 
+  
 }
