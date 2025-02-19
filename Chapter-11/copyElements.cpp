@@ -1,7 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
-int main() {
+int main() 
+{
+	
     // Write a program in C++ to copy the elements of one array into another array.
     int n;
 

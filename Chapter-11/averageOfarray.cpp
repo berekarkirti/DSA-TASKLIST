@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
+	
+	//  WAP to find the average of the 1D array.
 	int n;
 	cout << "Enter size of array: ";
 	cin >> n;
