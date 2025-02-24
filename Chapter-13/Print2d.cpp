@@ -1,8 +1,11 @@
 #include <iostream>
+
 using namespace std;
 
 int main() 
 {
+	// wap to get and print rxc 2D array.
+	
     int m, n;
 
     cout << "Enter rows and columns (m n): ";

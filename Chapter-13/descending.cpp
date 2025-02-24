@@ -4,7 +4,7 @@ using namespace std;
 
 int main() 
 {
-    // wap to set acending all element of 2d array.
+    // wap to set decending all element of 2d array.
  	
     int m, n;
 
@@ -31,7 +31,7 @@ int main()
 			{
                 for (int y = 0; y < n; y++) 
 				{
-                    if (arr[i][j] < arr[x][y]) 
+                    if (arr[i][j] > arr[x][y]) 
 					{
                         int temp = arr[i][j];
                         arr[i][j] = arr[x][y];
@@ -42,7 +42,7 @@ int main()
         }
     }
     
-    cout << "Ascending :" << " " ;
+    cout << "Descending :" << " " ;
     for (int i = 0; i < m; i++)
 	{
         for (int j = 0; j < n; j++) 
